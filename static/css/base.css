@@ -1,0 +1,17 @@
+.circle {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: red;
+    position: absolute;
+    cursor: pointer;
+    z-index: 2;
+    /* Ensure circles are above rectangles */
+}
+
+.rectangle {
+    position: absolute;
+    background-color: rgba(255, 0, 0, 0.5);
+    z-index: 1;
+    /* Ensure rectangles are below circles */
+}

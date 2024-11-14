@@ -1,0 +1,10 @@
+{%extends 'base.html'%}{%load static%}
+{%block title%}ODDS Maker WebInterface{%endblock%}
+{%block additional%}
+<link rel="stylesheet" href="{%static 'css/home.css'%}">
+<link rel="stylesheet" href="{%static 'js/select.js'%}">
+{%endblock%}
+{%block content%}
+<img id="to-detect" src="{{image}}">
+<button id="done" onclick="done()">Done!</button>
+{%endblock%}
